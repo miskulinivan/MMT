@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interstellar</title>
+    <link rel="icon" href="slike/mmt icon.png">
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <!-- JS-->
+    <script src="index.js"></script>
+
+    <!-- link za fontove-->
+    <script src="https://kit.fontawesome.com/92e73c3f62.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div id="interstellar">
+        <section class="" id="title">
+
+            <!-- Nav Bar -->
+            <nav class="navbar  navbar-intro navbar-expand-lg nav-main ">
+                <div class="container-fluid ">
+                    <div class="navbar-header ">
+                        <a class="navbar-brand nav-home" href="index.html">Početna</a>
+                    </div>
+                    <ul class="nav navbar-nav nav-ivan-dino">
+
+                        <li class="dropdown dropdown-ivan"><a class="dropdown-toggle " data-toggle="dropdown"
+                                href="#">Ivan
+                                Miškulin
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+
+                                <li><a href="interstellar.html  ">Interstellar</a></li>
+                                <li><a href="lotr.html">The Return of the King</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown navbar-padding"><a class="dropdown-toggle " data-toggle="dropdown"
+                                href="#">Dino
+                                Medić<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="tesb.html">The Empire Strikes Back</a></li>
+                                <li><a href="shawshank.html">Shawshank Redemption</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+
+        <section id="movie-section">
+            <div class="movie">
+                <h1>Interstellar</h1>
+
+                <div class="movie-description">
+                    <p>godina izlaska : 2014. </p>
+                    <p>režiser : Christopher Nolan</p>
+                    <p>producent : Emma Thomas</p>
+                    <p>napisao : Jonathan Nolan</p>
+                    <p>glavne uloge : Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                    <p>ocjena na IMDB : 8.6/10</p>
+                </div>
+
+
+                <!-- The four columns -->
+                <div class="row test">
+                    <div class="column">
+                        <img src="slike/interstellar/test1.webp" alt="interstellar" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="slike/interstellar/test2.jpg" alt="interstellar" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="slike/interstellar/test3.bmp" alt="interstellar" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="slike/interstellar/interstellar.gif" alt="interstellar" onclick="myFunction(this);">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" style="width:100%">
+                    <div id="imgtext"></div>
+                </div>
+
+
+                <h4>audio isječak</h4>
+                <audio class="media-audio" controls>
+                    <source src="horse.ogg" type="audio/ogg">
+                    <source src="glazba/interstellar.mp3" type="audio/mpeg">
+
+                </audio>
+
+                <h4>isječak iz filma</h4>
+                <iframe class="media-video" src="https://www.youtube.com/embed/MoLkabPK3YU" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="footer">
+                <p> web stranica izrađena za vrijeme pohađanja <a href="https://www.ferit.unios.hr/">Fakulteta
+                        elektrotehnike,
+                        računarstva i informacijskih tehnologija Osijek</a> u sklopu kolegija <a
+                        href="https://www.ferit.unios.hr/studiji/strucni-studij/SR601/53#anc">Multimedijska
+                        tehnika</a> </p>
+                <p>profesori : <a href="https://www.ferit.unios.hr/fakultet/imenik-djelatnika/mvranjes#anc">Izv. prof.
+                        dr.
+                        sc. MARIO VRANJEŠ</a>, <a
+                        href="https://www.ferit.unios.hr/fakultet/imenik-djelatnika/dvranjes#anc">Doc. dr. sc. DENIS
+                        VRANJEŠ</a>
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+
+<!--Still got some huge changes to be made -->

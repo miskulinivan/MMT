@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Multimedijska Tehnika</title>
+    <link rel="icon" href="slike/mmt icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <!-- link za fontove-->
+    <script src="https://kit.fontawesome.com/92e73c3f62.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="" id="title">
+
+        <!-- Nav Bar -->
+        <div class="row">
+            <nav class="navbar  navbar-intro navbar-expand-lg nav-main ">
+                <div class="container-fluid ">
+                    <div class="navbar-header">
+                        <a class="navbar-brand nav-home " href="index.html">Početna</a>
+                    </div>
+                    <ul class="nav navbar-nav nav-ivan-dino">
+                        <!--<li class=" navbar-intro navbar-padding"><a href="#">Home</a></li> -->
+                        <li class="dropdown dropdown-ivan"><a class="dropdown-toggle " data-toggle="dropdown"
+                                href="#">Ivan
+                                Miškulin
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#intro-ivan">Nešto o meni</a></li>
+                                <li><a href="interstellar.html  ">Interstellar</a></li>
+                                <li><a href="lotr.html">The Return Of The King</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown navbar-padding"><a class="dropdown-toggle " data-toggle="dropdown"
+                                href="#">Dino
+                                Medić<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#intro-dino">Nešto o meni</a></li>
+                                <li><a href="tesb.html">The Empire Strikes Back</a></li>
+                                <li><a href="shawshank.html">Shawshank Redemption</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+
+
+    </section>
+
+    <!-- Intro Ivan Miskulin-->
+
+    <section id="intro-ivan">
+        <h1>Ivan Miškulin</h1>
+
+        <div class="description-ivan">
+            <img id="fullScreenElement1" class="intro-img-ivan " src="slike/misko.PNG" alt="" onclick="document.getElementById('fullScreenElement1').requestFullscreen()">
+            <h3>Nešto o meni</h3>
+            <p>mjesto rođenja : Vinkovci</p>
+            <p>mjesto stanovanja : Ivankovo-Osijek</p>
+            <p>osnovna škola :<a href="http://os-acesarec-ivankovo.skole.hr/">August Cesarec Ivankovo</a></p>
+            <p>srednja škola :<a href="http://www.gimnazija-druga-os.skole.hr/">II. Gimnazija Osijek</a></p>
+            <p>fakultet :<a href="https://www.ferit.unios.hr/">FERIT Osijek</a></p>
+            <p>strani jezici: engleski i njemački</p>
+
+            <p> najdraža dva filma : <a href="interstellar.html">Interstellar</a> i <a href="lotr.html">The Lord Of The
+                    Rings:
+                    The Return Of
+                    The King</a></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Intro Dino Medić-->
+
+    <section id="intro-dino">
+        <h1>Dino Medić</h1>
+
+        <div class="description">
+            <img id="fullScreenElement2" class="intro-img-dino" src="slike/dino.jpg" alt="" onclick="toggleFullScreen('fullScreenElement2')">
+            <h3>Nešto o meni</h3>
+            <p>mjesto rođenja : Osijek</p>
+            <p>mjesto stanovanja : Osijek</p>
+            <p>osnovna škola :<a href="http://os-fkfrankopana-os.skole.hr/">Fran Krsto Frankopan Osijek</a></p>
+            <p>srednja škola :<a href="http://elpros.net/">Elektrotehnička i prometna škola Osijek</a></p>
+            <p>fakultet :<a href="https://www.ferit.unios.hr/">FERIT Osijek</a></p>
+            <p>strani jezici: engleski </p>
+            <P>najdraža dva filma : <a href="tesb.html">The Empire Strikes Back</a> i <a href="shawshank.html">Shawshank
+                    Redemption</a> </P>
+
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="footer">
+            <p> web stranica izrađena za vrijeme pohađanja <a href="https://www.ferit.unios.hr/">Fakulteta
+                    elektrotehnike,
+                    računarstva i informacijskih tehnologija Osijek</a> u sklopu kolegija <a
+                    href="https://www.ferit.unios.hr/studiji/strucni-studij/SR601/53#anc">Multimedijska
+                    tehnika</a> </p>
+            <p>profesori : <a href="https://www.ferit.unios.hr/fakultet/imenik-djelatnika/mvranjes#anc">Izv. prof. dr.
+                    sc. MARIO VRANJEŠ</a>, <a
+                    href="https://www.ferit.unios.hr/fakultet/imenik-djelatnika/dvranjes#anc">Doc. dr. sc. DENIS
+                    VRANJEŠ</a>
+
+        </div>
+    </section>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
+
+<!--Still got some huge changes to be made -->

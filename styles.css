@@ -1,0 +1,351 @@
+/* Still got some huge changes to be made */
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to top, #33FFD7, #93e1e26b);
+    
+}
+#lotr{
+    text-align: center;
+    
+    background-image: url(slike/1.PNG);
+    /* background-image: url(https://images.wallpapersden.com/image/download/sauron-lord-of-the-rings_a2pmbWiUmZqaraWkpJRmZW1lrWZuZ2U.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.media-lotr{
+    color: black;
+    font-size: 5rem;
+
+}
+
+#tesb{
+    background-image: url(https://i.pinimg.com/564x/4b/b5/1b/4bb51b7c2b237ed3862af09f77f2b301.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#shawshank{
+    background-image: url(https://i.pinimg.com/564x/0e/06/55/0e0655669fc1e7c25bd6802095ec95a2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover,
+.footer a:hover {
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    position: relative;
+    bottom: 120px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 8rem;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: black;
+    font-weight: bold;
+}
+.h1-tesb{
+    color: black;
+}
+h3{
+    font-size: 5rem;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+}
+.h4-media{
+    color: black;
+}
+
+.media-audio {
+    margin: 20px auto;
+}
+
+.media-video {
+    width: 560px;
+    height: 315px;
+    margin: 20px auto;
+}
+
+
+.img-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+/* INTRO */
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    border-color: #33FFD7;
+    background-color: transparent;
+}
+
+.dropdown-menu {
+    border: 2px solid black;
+    background-image: linear-gradient(to top, #4ecdc4, #556270);
+}
+
+.nav-ivan-dino {
+    margin-left: 100px;
+}
+
+#title {
+    padding: 7% 15%;
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    color: black;
+}
+
+.navbar-intro {
+    background-color: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.nav-home {
+    margin-right: 180px;
+    font-size: 3rem;
+}
+
+.nav-home:hover {
+    background-color: transparent;
+}
+.navbar-padding {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-main {
+    padding-left: 150px;
+    bottom: 50px;
+    font-size: 2.5rem;
+}
+
+}
+
+.dropdown-ivan {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+/* Intro Ivan Miskulin */
+
+#intro-ivan {
+    padding: 7% 15% 0% 15%;
+    position: relative;
+    bottom: 200px;
+}
+
+
+.intro-img-ivan {
+    width: 30%;
+    height: 30%;
+    float: left;
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+#intro-ivan h1 {
+    position: relative;
+    bottom: 70px;
+    font-family: 'Sacramento', cursive;
+    font-size: 8rem;
+    text-align: center;
+    
+}
+
+.description-ivan {
+    position: relative;
+    bottom: 40px;
+}
+
+#intro-ivan p,
+.movie {
+    font-size: 3rem;
+    padding: 10px 0 10px;
+    font-family: 'New Tegomin', serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Intro Dino Medić */
+
+#intro-dino {
+    padding: 7% 15% 5% 15%;
+    position: relative;
+    bottom: 250px;
+    height: 800px;
+}
+
+#intro-dino h1 {
+    position: relative;
+    bottom: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 8rem;
+    text-align: center;
+}
+
+#intro-dino p {
+    font-size: 3rem;
+    padding: 10px 0 10px;
+    font-family: 'New Tegomin', serif;
+}
+
+.intro-img-dino {
+    width: 30%;
+    height: 30%;
+    float: right;
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+.slike {
+    margin: 0%;
+}
+
+/* Interstellar */
+#interstellar{
+    background-image:  url(https://i.pinimg.com/564x/91/ba/4d/91ba4d2068fd1169a98c0914917f90ba.jpg);
+    
+    background-size: cover;
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    
+    
+    
+
+}
+.interstellar-images img {
+    padding: 30px 30px;
+    border-radius: 100%;
+}
+
+.movie-description {
+    position: relative;
+    bottom: 50px;
+    color: rgb(204, 195, 195);
+}
+
+.movie-description-tesb {
+    position: relative;
+    bottom: 50px;
+    color: black;
+}
+
+
+/* Galerija */
+
+* {
+    box-sizing: border-box;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.test {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.test img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #126e82;
+    padding: 5% 5% 0 5%;
+    color: black;
+}
+
+.footer p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    padding: 0 20% 0;
+    position: relative;
+    bottom: 50px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
